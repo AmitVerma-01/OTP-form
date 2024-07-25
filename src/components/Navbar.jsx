@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='fixed z-10 rounded-md px-2 md:px-10 md:h-16 h-12 bg-[#112D4E] text-white flex w-full justify-between items-center'>
+    <div className='z-10 rounded-md px-2 md:px-10 md:h-16 h-12 bg-[#112D4E] text-white flex w-full justify-between items-center'>
         <div>
             <a href="https://chaicode.com"><img src="image.png" alt="chai aur code" className="w-10 md:w-12" /></a>
         </div>
